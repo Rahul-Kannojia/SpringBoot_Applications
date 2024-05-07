@@ -1,0 +1,17 @@
+Student Rest CRUD Operations:
+
+Get All Students: localhost:8081/students
+Get Student Based on RollNo: localhost:8081/student/1
+Create Student: localhost:8081/student/add
+Update the Student Details: localhost:8081/student/update/2
+Delete Student based on ID: localhost:8081/student/delete/1
+
+# Which are the dependencies we need to create this project:
+
+starter-parent
+spring-data-jpa
+mysql-connecter
+devtools
+spring-web : we are creating Spring Rest Apis i.e Web Application so we need this dependency
+
+
